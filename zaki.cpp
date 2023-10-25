@@ -21,11 +21,25 @@ for ( int i = 2; i<4; i++)
     arr[i]=arr[i+1];
     
 }
+
+
 //Traversing
     for(int i=0;i<5;i++){
         cout << "Value: ";
         cout << arr[i]<<endl;
     }
+
+
+// Searching
+for (int i = 0; i < 4; i++)
+{
+    if(arr[i]==15){
+        cout<<"Found at:"<<i<<endl;
+    }
+    else {
+        cout<<"Not Found!"<<endl;
+    }
+}
 
     return 0;
 }
